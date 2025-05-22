@@ -149,3 +149,28 @@ a.info-box {
 h4 {
   text-align: center;
 }
+
+/********** WEATHER **********/
+
+img.info-box-weather-icon {
+  height: 30px;
+  width: 30px !important; /*this is to override line 144 to suit it's placement*/
+  margin: 10px;
+  float: left;
+}
+
+h1.info-box-weather-icon {
+  font-size: 65px;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  border-top: 1px solid #131313;
+}
